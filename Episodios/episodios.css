@@ -1,0 +1,87 @@
+body{
+    background-image: url(../imagenes/fondo.png);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+#barraNav{
+    background-color: transparent;
+    justify-content: end;
+    padding-right: 4%;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    
+    .nav-item{
+        a{
+            color: white;
+        }
+    }
+    #logoNav{
+        width: 200px;
+    }
+    .push-left {
+        margin-right: auto;
+      }
+}
+#cap{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 4fr));
+    gap: 25px;
+    padding: 5%;
+}
+#epis{
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0px 0px 10px gray;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.5s;
+    #title{
+        height: 50px;
+    }
+}
+#epis:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.pagination{
+    li{
+        transition: 0.5s;
+        a{
+            cursor: pointer;
+        }
+
+    }
+    a:hover{
+        transition: 0.2s;
+        transform: scale(1.1);
+        background-color: #808080;
+        color: white;
+    }
+}
+#ti{
+    color: black;
+}
+#ti:hover{
+    color: rgb(245, 90, 0);
+    cursor: pointer;
+}
+#img-continuar{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    transition: 0.5s;
+    i{
+        color: white;
+        font-size: 30px;
+    }
+    i:hover{
+        color: rgb(34, 34, 255);
+    }
+}
+#img-continuar:hover{
+    transition: 0.5s;
+    transform: scale(1.02);
+}
